@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    text-align: center;
+}
+h1{
+    font-size: 500%;
+    font-family: sans-serif; 
+    font-weight: bold;
+    margin-top: 15%;
+}
+#btn_metodo_simplex{
+    margin-top: 5%;
+}
