@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+ 
+    text-align: center;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+  h1{
+    font-size: 500%;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+  }
+  .cuadro{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 900px;
+  }
+/*//////////////// CUADRO 1///////////////*/
+
+#cuadro1{
+    background-image: url(../../img/art-artistic-arts-and-crafts-1153895.jpg);
+    padding-top: 25%
+}
+
+
+#h1_tittle{
+    background-color: snow;
+    opacity: 90%;
+}
+#btn_metodo_simplex{
+    margin-top: 80px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+
+}
+/* ///////////     METODO SIMPLEX         ///////////////////*/
+
+#cuadro2{
+margin-top: 0%;
+background-image: url(../../img/portfolio-4.jpg);;
+padding-top: 10%;
+}
+
+
+#h1_metodo_simplex{
+    text-align: start;
+    color : #2B1F11 ;
+    background-color: white;
+    opacity: 90%;
+    border: black solid;
+    width: 40%;
+}
+
+#h1_variables_dcs{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 250%;
+    text-align: left;
+margin-top: 100px;
+}
+/*//////////////////////////////////////////////////////////////////////*/

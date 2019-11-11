@@ -1,4 +1,3 @@
-
 {% load static %}
 <!DOCTYPE html>
 <html lang="es">
@@ -10,16 +9,45 @@
       name="Investigacion de Operaciones"
       content="Investigacion de Operaciones : Metodo Simplex"
     />
-    <link rel="stylesheet" href="{% static 'css/Home.css' %}">
+    <link rel="stylesheet" href="{% static 'css/Home.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/bootstrap/bootstrap.min.css' %}" />
+    
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div>
-      <div>
-          <h1 >INVESTIGACION DE OPERACIONES</h1>
+    <!--HOme-->
+    <div class="cuadro" id="cuadro1">
+      <div id="div_tittle">
+        <h1 id="h1_tittle">INVESTIGACION DE OPERACIONES</h1>
       </div>
-  
-      
+      <div id="btn_metodo_simplex">
+        <button
+          data-scroll
+          id="btn_metodo_simplex"
+          type="button"
+          onclick="location.href='#h1_metodo_simplex'"
+          class="btn btn-warning btn-lg"
+        >
+          METODO SIMPLEX
+        </button>
+      </div>
     </div>
-   
+
+    <!--METODO SIMPLEX-->
+    <div class="cuadro" id="cuadro2">
+      <div id="div_h1_metodo_simplex">
+        <h1 id="h1_metodo_simplex">Metodo Simplex</h1>
+      </div>
+
+      <div>
+        <h1 id="h1_variables_dcs">
+          Ingrese el numero de Variables de Decision
+        </h1>
+      </div>
+    </div>
+
+    <script src="{% static 'js/bootstrap/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap/jquery-3.4.1.min.js' %}"></script>
   </body>
 </html>
