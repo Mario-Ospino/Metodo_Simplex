@@ -24,7 +24,7 @@ html {
 /*//////////////// CUADRO 1///////////////*/
 
 #cuadro1{
-    background-image: url(/Metodo_Simplex/vistas/img/art-artistic-arts-and-crafts-1153895.jpg);
+    background-image: url(../../img/art-artistic-arts-and-crafts-1153895.jpg);
     padding-top: 25%
 }
 
@@ -43,7 +43,7 @@ html {
 
 #cuadro2{
 margin-top: 0%;
-background-image: url(/Metodo_Simplex/vistas/img/portfolio-4.jpg);;
+background-image: url(../../img/portfolio-4.jpg);;
 padding-top: 10%;
 }
 

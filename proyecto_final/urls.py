@@ -19,5 +19,5 @@ from proyecto_final.views import Home
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('Home/',Home),
+    path('',Home),
 ]
